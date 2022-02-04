@@ -6,6 +6,7 @@ namespace GeometricShapes {
 
             Rectangle rect = new Rectangle(2, 5);
             rect.PrintPerimeter();
+            rect.PrintArea();
         }
     }
 }

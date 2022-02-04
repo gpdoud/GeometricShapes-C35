@@ -20,6 +20,12 @@ namespace GeometricShapes {
             Console.WriteLine($"A rectange with a height of {Height} and width of {Width} " +
                                 $"has a perimeter of {perimeter}");
         }
+        // method called PrintArea
+        public void PrintArea() {
+            int area = Height * Width;
+            Console.WriteLine($"A rectangle with a height of {Height} and width of {Width} " +
+                                $"has an area of {area}");
+        }
 
     }
 }
